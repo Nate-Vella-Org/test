@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  title: Test
+  description: A static HTML website. Just like the good old days.
+  links:
+    - url: https://Nate-Vella-Org.github.io/test/
+      title: Live website
+  annotations:
+    github.com/project-slug: Nate-Vella-Org/test
+spec:
+  type: website
+  owner: user:dtuite
+  lifecycle: experimental
